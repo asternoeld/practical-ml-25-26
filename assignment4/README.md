@@ -1,12 +1,23 @@
 # Assignment 4 - MNIST CNN Deployment
 
-Notebook:
+## Training Notebook
 https://github.com/asternoeld/practical-ml-25-26/blob/main/assignment4/assignment4.ipynb
 
-Hugging Face Space:
+## Hugging Face Deployment
 https://huggingface.co/spaces/asternoeld/pml
 
-Model Accuracy:
-99.26%
+## Model
+Fine-tuned ResNet18 on MNIST.
 
-The model was trained in PyTorch using a fine-tuned ResNet18 and deployed with Gradio on Hugging Face Spaces.
+Test Accuracy: 99.26%
+
+## Features
+- Upload image
+- Draw digit
+- Probability scores for digits 0-9
+- Example images included
+
+## Files
+- app.py : Gradio application
+- mnist_model.pth : trained weights
+- requirements.txt : dependencies
